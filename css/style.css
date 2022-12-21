@@ -51,3 +51,11 @@ a {
     background-color: #6e3e2d;
     border-color: #6e3e2d;
 }
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-light {
+    background-color: rgba(0, 0, 0, 0.2);
+}

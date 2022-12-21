@@ -11,7 +11,7 @@ h1 {
     padding-top: 20px;
 }
 
- h2 {
+h2 {
     color: #2f4d59;
     font-family: 'Montserrat', sans-serif;
     padding-top: 20px;
@@ -33,82 +33,21 @@ a {
 
 }
 
-/* a {
-    color: black;
-    text-decoration: none;
-} */ */
-
-
-/* .container {
-    width: 1024px;
-    min-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
-/* header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: solid 1px #a65e44;
-}
-
-nav {
-    align-items: right;
-}
-
-main {
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-} */
-
-
-/* .mapsection {
-    padding: 20px 0px 20px 0px;
-
-}
-
-.mapsection p {
-    padding-bottom: 20px;
-}
-
-.mapsection a {
-    text-decoration: underline;
-} */
-
-/* .mapsection h2 {
-    padding-bottom: 20px;
-} */
-
-.contacts {
-    min-height: 300px;
-}
-
 .contacts a {
     text-decoration: underline;
 }
 
-.contacts h2 {
-    padding-bottom: 20px;
-}
 
 .contacts p {
     line-height: 1.75rem;
 }
 
-/* .resume h3 {
-    font-size: 1.5rem;
+.btn-primary  {
+    background-color: #a65e44;
+    border-color: #a65e44;
 }
 
-.resume h4 {
-    font-size: 1.2rem;
+.btn-primary:hover {
+    background-color: #6e3e2d;
+    border-color: #6e3e2d;
 }
-
-.resume li {
-    margin-left: 10px;
-    margin-bottom: 10px;
-
-} */

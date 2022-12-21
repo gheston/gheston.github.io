@@ -59,3 +59,11 @@ a {
 .bg-light {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+footer {
+    margin-top: 10px;
+}
+
+.contact-keep-together {
+    display: inline
+}

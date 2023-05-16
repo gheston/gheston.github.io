@@ -1,0 +1,143 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 0.9em;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.states {
+    fill: #d9e8ec69;
+    stroke: #123b46;
+    stroke-width: 1.5px;
+}
+
+.counties {
+    stroke: #154f5e;
+    stroke-width: 0.8px;
+}
+
+.gratLines {
+    fill: rgba(129, 79, 79, 0);
+    stroke: #888;
+    stroke-width: 0.5px;
+}
+
+.gratBackground {
+    fill: #bdbdbd;
+}
+
+.map {
+    border: medium solid #999;
+    margin: 10px 0 0 20px;
+}
+
+.chart {
+    margin: 10px 20px 0 0;
+}
+
+.chartTitle {
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: white;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.nevadaMap {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    position: absolute;
+    top: 440px;
+    left: 35px;
+    z-index: 10;
+    font-size: 1em;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+    font-family: 'Poppins', sans-serif;
+}
+
+.option {
+    font-weight: normal;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+
+}
+
+.numbers { /* mimicing a halo with shadows */
+    text-shadow: -1px 1px rgba(255, 255, 255, 0.5), 
+    1px 1px rgba(255, 255, 255, 0.5),
+    1px -1px rgba(255, 255, 255, 0.5),
+    -1px -1px rgba(255, 255, 255, 0.5);
+}
+
+.countyLabel {
+    font-size: 0.8em;
+    writing-mode: vertical-lr;
+}
+
+.barchart {
+    display: inline-block;
+}
+
+footer {
+    font-size: 0.8em;
+}
